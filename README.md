@@ -1,6 +1,6 @@
-<h1 style="text-align:center">Encode Club Solidity Contracts by Maurice W2</h1>
+<h1>Encode Club Solidity Contracts by Maurice W2</h1>
 
-<h3 style="text-align:center">Solidity smart contracts practice during 8-week intensive ethereum programming accelerator course.</h3>
+<h3>Solidity smart contracts practice during 8-week intensive ethereum programming accelerator course.</h3>
 
 <p>Many contracts inherit functionality from 
 <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts">OpenZeppelin Contracts</a>.</p>
