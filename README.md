@@ -11,4 +11,5 @@
     <li> Ballet.sol - a basic Voting contract </li>
     <li> Lottery.sol - a susceptible Lottery game contract used for hacking exercise </li>
     <li> GasContract.sol - a basic contract used for gas optimization exercise </li>
+    <li> DeFi.sol - a contract used for DeFi exercise where we forked Ethereum mainnet and used COINBASE account </li>
 </ul>
