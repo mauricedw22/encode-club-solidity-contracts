@@ -10,4 +10,5 @@
     <li> VolcanoToken.sol - an ERC721 contract deployed on Rinkeby Network </li>
     <li> Ballet.sol - a basic Voting contract </li>
     <li> Lottery.sol - a susceptible Lottery game contract used for hacking exercise </li>
+    <li> GasContract.sol - a basic contract used for gas optimization exercise </li>
 </ul>
