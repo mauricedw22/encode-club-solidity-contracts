@@ -6,6 +6,7 @@
 <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts">OpenZeppelin Contracts</a>.</p>
 
 <ul style="list-style-type:circle;">
+    <li> Metacoin.sol - a boilerplate contract (from truffle <a href="https://www.trufflesuite.com/boxes/webpack">webpack</a>) used for learning purposes </li>
     <li> VolcanoCoin.sol - an ERC20 contract deployed on Rinkeby Network </li>
     <li> VolcanoToken.sol - an ERC721 contract deployed on Rinkeby Network </li>
     <li> Ballet.sol - a basic Voting contract </li>
