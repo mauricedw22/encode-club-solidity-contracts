@@ -15,23 +15,26 @@ const INITIAL_AMOUNT = 9999;
         owner = accounts[0];
         console.log("owner account is " , owner);
         
-        // set up   DAI_TokenContract here from the DAI address
-        const DAI_TokenContract = await DAIMock.at(DAIAddress);   
-
+        // set up   DAI_TokenContract here from the DAI address   
+        let DAI_TokenContract= await DAIMock.at(DAIAddress)
        // test that we have the correct contract
         const symbol = await DAI_TokenContract.symbol();
         console.log(symbol);
         // now transfer some DAI from the COINBASE account to the owner account
-        const transactionHash = await DAI_TokenContract.transfer(COINBASE).send({from:owner});
-        console.log(transactionHash);
-        console.log(DAI_TokenContract.balanceOf(owner));
-
+        const ownerBalance = await DAI_TokenContract.balanceOf.call(owner,{from:owner});
+        await DAI_TokenContract.transfer(COINBASE, ownerBalance, { from: owner});
+        await DAI_TokenContract.transfer(owner, 1000, { from: COINBASE});
     });
 
 
-    /* it("should check transfer succeeded", async () => {
+    it("should check transfer succeeded", async () => {
     // write test to show transfer succeeded    
-    }); */
+    let DAI_TokenContract= await DAIMock.at(DAIAddress)
+    const ownerBalance = await DAI_TokenContract.balanceOf.call(owner,{from:owner});
+    console.log(ownerBalance);
+    assert.equal(ownerBalance.toNumber(), 1000);
+
+    });
 
  
 });
