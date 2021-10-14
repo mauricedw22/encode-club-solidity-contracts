@@ -13,5 +13,5 @@
     <li> Lottery.sol - a susceptible Lottery game contract used for hacking exercise </li>
     <li> GasContract.sol - a basic contract used for gas optimization exercise </li>
     <li> DeFi.sol - a contract used for DeFi exercise where we forked Ethereum mainnet and used COINBASE account </li>
-    <li> UUNFT.sol - a final project contract for gaming NFT metaverse where NFT can be minted and used interchangeably across multiple games </li>
+    <li> UniversalUpgadeableNFT.sol - a final project contract for gaming NFT metaverse where NFT can be minted and used interchangeably across multiple games </li>
 </ul>
